@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.first {
+    background-color: rgb(36, 35, 35);
+    padding: 20px 80px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    gap: 90px;
+}
+
+.logo img {
+    width: 180px;
+
+}
+
+.right ul {
+    display: flex;
+    /* align-items: center; */
+    gap: 15px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.right ul li span {
+    padding: 0 4px 0px 7px;
+}
+
+.container {
+    padding: 80px 0px 0px 190px;
+    color: white;
+    /* display: flex; */
+}
+
+.container p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.link {
+    color: white;
+    font-size: 25px;
+}
+
+.img {
+    float: right;
+    /* display: flex; */
+    padding: 0px 120px 0px 0px;
+    margin: 0px 50px 0px;
+}
+
+.button {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    color: white;
+}
+
+.button button {
+    margin: 25px 0px;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+.but1 {
+    border: 2px solid rgb(142, 217, 236);
+    padding: 22px;
+    background-color: rgb(19, 181, 222);
+
+}
+
+.but1:hover {
+    background-color: rgb(72, 187, 233);
+}
+
+.but2 {
+    border: 2px solid white;
+    padding: 0px 55px;
+    background-color: rgb(36, 35, 35);
+}
+
+.but2:hover {
+    background-color: grey;
+}
+
+.link1 {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.link2 {
+    color: white;
+    font-size: 20px;
+}
+
+.content {
+    margin: 30px 40px 0px;
+    padding: 30px 0px 0px 0px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    
+
+}
+
+.content p {         
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+.award {
+    display: flex;
+    gap: 50px;
+}
+
+.content2 {
+    position: relative;
+    top: -25px;
+
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(251, 221, 70);
+}
+
+.content2 p {
+    position: relative;
+    top: 19px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex p {
+    font-size: 17px;
+}
+
+section {
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+}
+.grid{
+    /* margin: 95px auto; */
+    /* padding:10px ; */
+    position: relative;
+    display:flex;
+    top: 60px;
+    align-items: center;
+    gap:90px;
+    justify-content: center;
+    align-content: center;
+    max-width: 150vw;
+    height: 50vh;
+    
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    position: relative;
+    justify-content:center;
+    align-items: center;  
+    max-width: 180px; 
+}
+.para{
+    
+    text-align: center;
+}
+.para :first-child{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para :nth-child(2){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    max-width: 130px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    max-width: 190px;
+
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    max-width: 220px;
+}
+footer{
+    height: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.second img{
+    width:280px;
+    position: relative;
+    top: 50;
+}
